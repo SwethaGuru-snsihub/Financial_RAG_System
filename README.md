@@ -41,11 +41,6 @@ cp .env.example .env
 Required environment variables:
 bash
 GEMINI_API_KEY=your_gemini_api_key_here
-CHUNK_SIZE=500
-CHUNK_OVERLAP=50
-TOP_K_RETRIEVAL=5
-TEMPERATURE=0.1
-MAX_TOKENS=1024
 
 4. **Create data directories**
 bash
@@ -89,4 +84,5 @@ streamlit run ui/app.py
 - "What was the operating cash flow?"
 - "How much did the company spend on capital expenditures?"
 - "What was the free cash flow?"
+
 - "Did the company pay dividends?"
